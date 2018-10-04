@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+        body{
+          color: #FF8000;
+          position:relative;
+          text-align: center;
+          font-family: 'Luckiest Guy';
+          background-color: #33ccff;
+          background: linear-gradient(to right, #33ccff, white);
+        }
+
+        input[type="submit"] {
+
+          padding: 5%;
+          font-family: 'Luckiest Guy';
+          color: #FF8000;
+          background-color: #64FE2E;
+
+        }
+
+        p {
+
+         color: red;
+         font-size: 75%;
+
+        }
+
+      </style>
+    </head>
+    <body>
+        <form action="LoginServlet" method="post">
+            <h1>Log in</h1>
+
+            <input id="loginuname" name="loginuname" type = "username" placeholder = "Username" required><p id="loginunamep"> </p>
+            <br>
+            <br><br>
+            <input  id="loginpass" name="loginpass" type = "password" placeholder = "Password" required><p id="loginpassp"> </p>
+            <br>
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="LOGIN">
+        </form>
+    </body>
+</html>

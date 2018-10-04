@@ -1,0 +1,17 @@
+body{
+	background: #fafafa;
+}
+h1{
+	font-size: 300%;
+}
+form{
+	margin-top: 5%;
+	font-size: 150%;
+}
+form div{
+	margin-bottom: 3%;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
